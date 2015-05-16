@@ -124,8 +124,8 @@
 		430E0AEA2F4C48D01B0BC222 /* MockSRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockSRWebSocket.h; sourceTree = "<group>"; };
 		430E0F1E6C3E7422A8791E24 /* MockObjectiveDDPDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockObjectiveDDPDelegate.h; sourceTree = "<group>"; };
 		6342B2811B076D4D0044FAEA /* DDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6342B2841B076D4D0044FAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../DDP/Info.plist; sourceTree = "<group>"; };
-		6342B2851B076D4D0044FAEA /* DDP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DDP.h; path = ../DDP/DDP.h; sourceTree = "<group>"; };
+		6342B2841B076D4D0044FAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6342B2851B076D4D0044FAEA /* DDP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDP.h; sourceTree = "<group>"; };
 		888B6DFA173B6508001EED80 /* MeteorClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeteorClient.h; sourceTree = "<group>"; };
 		888B6DFB173B6508001EED80 /* MeteorClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeteorClient.m; sourceTree = "<group>"; };
 		888B6DFD173B66EA001EED80 /* BSONIdGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSONIdGenerator.h; sourceTree = "<group>"; };
