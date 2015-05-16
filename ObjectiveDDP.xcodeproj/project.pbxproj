@@ -41,18 +41,11 @@
 		430E08B6E86CA801EE954D0F /* MockObjectiveDDPDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 430E092B95390D2D558E5F3B /* MockObjectiveDDPDelegate.m */; };
 		570DE62F4BD74C18AE51ED8C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1F0C9084EA4B2DBD349673 /* libPods.a */; };
 		6342B2AB1B0770530044FAEA /* DDP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6342B2851B076D4D0044FAEA /* DDP.h */; };
-		6342B2AE1B07711E0044FAEA /* ObjectiveDDP.m in Sources */ = {isa = PBXBuildFile; fileRef = 4000D640170E880400296229 /* ObjectiveDDP.m */; };
-		6342B2AF1B0771200044FAEA /* MeteorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B6DFB173B6508001EED80 /* MeteorClient.m */; };
-		6342B2B01B07712C0044FAEA /* MeteorClient+Parsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BAB8CF182051500098524C /* MeteorClient+Parsing.m */; };
-		6342B2B11B07712F0044FAEA /* BSONIdGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B6DFE173B66EA001EED80 /* BSONIdGenerator.m */; };
-		6342B2B21B0771350044FAEA /* DependencyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4011C80317BD2AA6002AA28E /* DependencyProvider.m */; };
 		6342B2B41B0776600044FAEA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401AEB83170E9EEB008B38EA /* Security.framework */; };
 		6342B2B51B0776640044FAEA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401AEB81170E9ED2008B38EA /* CFNetwork.framework */; };
 		6342B2B61B0776660044FAEA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401AEB7F170E9ECC008B38EA /* SystemConfiguration.framework */; };
 		6342B2B71B07766B0044FAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4000D639170E880400296229 /* Foundation.framework */; };
 		6342B2B81B0776710044FAEA /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 401AEB7D170E9EC7008B38EA /* libicucore.dylib */; };
-		6342B2B91B0776790044FAEA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1F0C9084EA4B2DBD349673 /* libPods.a */; };
-		6342B2BA1B0776840044FAEA /* libPods-ObjectiveDDP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C2BCE4B341D5B1B389A0E7 /* libPods-ObjectiveDDP.a */; };
 		888B6DFC173B6508001EED80 /* MeteorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B6DFB173B6508001EED80 /* MeteorClient.m */; };
 		888B6DFF173B66EA001EED80 /* BSONIdGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B6DFE173B66EA001EED80 /* BSONIdGenerator.m */; };
 		9D3C062D54114FB1AC5700F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BE0B3F1B814D98AAAE26CF /* libPods.a */; };
@@ -175,8 +168,6 @@
 				6342B2B61B0776660044FAEA /* SystemConfiguration.framework in Frameworks */,
 				6342B2B71B07766B0044FAEA /* Foundation.framework in Frameworks */,
 				6342B2B81B0776710044FAEA /* libicucore.dylib in Frameworks */,
-				6342B2B91B0776790044FAEA /* libPods.a in Frameworks */,
-				6342B2BA1B0776840044FAEA /* libPods-ObjectiveDDP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,11 +496,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6342B2AE1B07711E0044FAEA /* ObjectiveDDP.m in Sources */,
-				6342B2AF1B0771200044FAEA /* MeteorClient.m in Sources */,
-				6342B2B01B07712C0044FAEA /* MeteorClient+Parsing.m in Sources */,
-				6342B2B11B07712F0044FAEA /* BSONIdGenerator.m in Sources */,
-				6342B2B21B0771350044FAEA /* DependencyProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,7 +685,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = DDP/Info.plist;
+				INFOPLIST_FILE = ObjectiveDDP/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -736,7 +722,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = DDP/Info.plist;
+				INFOPLIST_FILE = ObjectiveDDP/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
