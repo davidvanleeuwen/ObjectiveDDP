@@ -1,0 +1,1 @@
+PODS_OBJECTIVEDDP_SOCKETROCKET_OTHER_LDFLAGS = -l"icucore" -framework "CoreServices" -framework "Security"

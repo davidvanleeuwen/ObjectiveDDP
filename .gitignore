@@ -3,6 +3,6 @@ xcuserdata
 Example/Pods
 Example/swiftExample/Pods
 build
-Pods
+# Pods
 .DS_Store
 Podfile.lock
