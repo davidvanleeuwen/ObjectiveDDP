@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4000D635170E880400296229"
-               BuildableName = "libObjectiveDDP.a"
-               BlueprintName = "ObjectiveDDP"
+               BlueprintIdentifier = "6342B2801B076D4D0044FAEA"
+               BuildableName = "DDP.framework"
+               BlueprintName = "DDP"
+               ReferencedContainer = "container:ObjectiveDDP.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6342B28A1B076D4D0044FAEA"
+               BuildableName = "DDPTests.xctest"
+               BlueprintName = "DDPTests"
                ReferencedContainer = "container:ObjectiveDDP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,7 +42,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6342B28A1B076D4D0044FAEA"
+               BuildableName = "DDPTests.xctest"
+               BlueprintName = "DDPTests"
+               ReferencedContainer = "container:ObjectiveDDP.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6342B2801B076D4D0044FAEA"
+            BuildableName = "DDP.framework"
+            BlueprintName = "DDP"
+            ReferencedContainer = "container:ObjectiveDDP.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -42,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4000D635170E880400296229"
-            BuildableName = "libObjectiveDDP.a"
-            BlueprintName = "ObjectiveDDP"
+            BlueprintIdentifier = "6342B2801B076D4D0044FAEA"
+            BuildableName = "DDP.framework"
+            BlueprintName = "DDP"
             ReferencedContainer = "container:ObjectiveDDP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -57,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6342B2801B076D4D0044FAEA"
+            BuildableName = "DDP.framework"
+            BlueprintName = "DDP"
+            ReferencedContainer = "container:ObjectiveDDP.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

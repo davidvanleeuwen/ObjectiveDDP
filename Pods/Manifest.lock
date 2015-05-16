@@ -13,8 +13,8 @@ EXTERNAL SOURCES:
     :git: git@github.com:square/SocketRocket.git
 
 SPEC CHECKSUMS:
-  Cedar: 65b780d0e75ccb626a43890347315de1b822ec8e
-  M13OrderedDictionary: fe00e7cd13f00719e208a85ce1f33a79db19fd71
-  SocketRocket: 9cbe08469513356cddc0afcab1ff160bd190296a
+  Cedar: 7e158d3b9d51d47fb44d9add628195f7cf8e269c
+  M13OrderedDictionary: 0c2c025179f9733a33e24e88be11ff47a0ff9c53
+  SocketRocket: 70df1983148525857ced17c57207bfb939bc6b8e
 
-COCOAPODS: 0.34.2
+COCOAPODS: 0.37.1
