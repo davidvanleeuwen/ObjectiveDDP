@@ -46,6 +46,12 @@
 		6342B2B61B0776660044FAEA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401AEB7F170E9ECC008B38EA /* SystemConfiguration.framework */; };
 		6342B2B71B07766B0044FAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4000D639170E880400296229 /* Foundation.framework */; };
 		6342B2B81B0776710044FAEA /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 401AEB7D170E9EC7008B38EA /* libicucore.dylib */; };
+		6396F7C21B07D01200C69B45 /* DDP.h in Headers */ = {isa = PBXBuildFile; fileRef = 6342B2851B076D4D0044FAEA /* DDP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6396F7C31B07D02000C69B45 /* DependencyProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 4011C80217BD2AA6002AA28E /* DependencyProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6396F7C41B07D02200C69B45 /* BSONIdGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 888B6DFD173B66EA001EED80 /* BSONIdGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6396F7C51B07D02400C69B45 /* MeteorClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 888B6DFA173B6508001EED80 /* MeteorClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6396F7C61B07D02800C69B45 /* MeteorClient+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 052BE033183F8655005CBD6E /* MeteorClient+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6396F7C71B07D02A00C69B45 /* ObjectiveDDP.h in Headers */ = {isa = PBXBuildFile; fileRef = 4000D63E170E880400296229 /* ObjectiveDDP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888B6DFC173B6508001EED80 /* MeteorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B6DFB173B6508001EED80 /* MeteorClient.m */; };
 		888B6DFF173B66EA001EED80 /* BSONIdGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B6DFE173B66EA001EED80 /* BSONIdGenerator.m */; };
 		9D3C062D54114FB1AC5700F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BE0B3F1B814D98AAAE26CF /* libPods.a */; };
@@ -294,6 +300,22 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		6396F7C11B07D00D00C69B45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6396F7C21B07D01200C69B45 /* DDP.h in Headers */,
+				6396F7C71B07D02A00C69B45 /* ObjectiveDDP.h in Headers */,
+				6396F7C31B07D02000C69B45 /* DependencyProvider.h in Headers */,
+				6396F7C41B07D02200C69B45 /* BSONIdGenerator.h in Headers */,
+				6396F7C51B07D02400C69B45 /* MeteorClient.h in Headers */,
+				6396F7C61B07D02800C69B45 /* MeteorClient+Private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		4000D635170E880400296229 /* ObjectiveDDP */ = {
 			isa = PBXNativeTarget;
@@ -337,9 +359,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6342B2981B076D4E0044FAEA /* Build configuration list for PBXNativeTarget "DDP" */;
 			buildPhases = (
-				6342B2AC1B0771030044FAEA /* Sources */,
 				6342B2B31B07764B0044FAEA /* Frameworks */,
 				6342B2AA1B0770420044FAEA /* CopyFiles */,
+				6396F7C11B07D00D00C69B45 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -489,13 +511,6 @@
 				4011C80817BD2C06002AA28E /* FakeDependencyProvider.m in Sources */,
 				4011C80B17BD2CA1002AA28E /* DDPSpecHelper.m in Sources */,
 				4011C80E17BD2E14002AA28E /* DependencyProvider+Spec.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6342B2AC1B0771030044FAEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
